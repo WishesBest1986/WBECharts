@@ -1,0 +1,6 @@
+framework module Pods_WBECharts_Tests {
+  umbrella header "Pods-WBECharts_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

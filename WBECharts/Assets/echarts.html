@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>ECharts</title>
+        
+        <style type="text/css">
+            div {background-color: transparent;}
+            </style>
+        
+        <!-- import echarts library -->
+        <script src="js/echarts.js"></script>
+        
+        <!-- register themes -->
+        <script src="js/theme/dark.js"></script>
+        <script src="js/theme/infographic.js"></script>
+        <script src="js/theme/macarons.js"></script>
+        <script src="js/theme/roma.js"></script>
+        <script src="js/theme/shine.js"></script>
+        <script src="js/theme/vintage.js"></script>
+        
+        <script type="text/javascript">
+            var myChart;
+            
+            function initEChartView() {
+                myChart = echarts.init(document.getElementById('main'));
+                var options = {
+                    title: {
+                        text: 'ECharts 入门示例'
+                    },
+                    tooltip: {},
+                    legend: {
+                        data:['销量']
+                    },
+                    xAxis: {
+                        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+                    },
+                    yAxis: {},
+                    series: [{
+                             name: '销量',
+                             type: 'bar',
+                             data: [5, 20, 36, 10, 10, 20]
+                             }]
+                };
+                myChart.setOption(options);
+            }
+        
+            function resizeDiv(cssText) {
+                var divMain = document.getElementById("main");
+                divMain.style.cssText = cssText;
+            }
+        </script>
+    </head>
+    <body style="background-color: transparent;margin: 0px;">
+        <div id="main" style="height: 270px;width: 420px;"></div>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WBECharts_Example' do
+  pod 'WBECharts', :path => '../'
+
+  target 'WBECharts_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module WBECharts {
+  umbrella header "WBECharts-umbrella.h"
+
+  export *
+  module * { export * }
+}
