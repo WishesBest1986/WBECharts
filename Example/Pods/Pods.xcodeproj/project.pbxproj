@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		154E6C8D9DFA09E532BAA9873FB2F1DF /* Pods-WBECharts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C53A46EEE793A07C28A1BD661AB8A8 /* Pods-WBECharts_Example-dummy.m */; };
 		1EAF17E69242694C96FC49EE76A5EB6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
-		2BC0E9815EC2D9AC37BE33832AFAC498 /* WBEChartsView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FBAE85FD66D670744868F602486218 /* WBEChartsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3113BE72B4D04AB0FB62F78F7AE74A55 /* WBJsonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DA91F84CE0E0D85859C6B4EDE7399DE3 /* WBJsonUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3498AAD3AE4353B5A8D539CEBF946149 /* WBJsonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A44ECAFE68280CCC3B32D8C5E0A6E082 /* WBJsonUtils.m */; };
 		4B9C86CF8CBBDCAC86DA5E20CBC510DD /* Pods-WBECharts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB7CB0230F1DAE78C0556BAD54C090B /* Pods-WBECharts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BD9ED1D40BE7A2DC0EB3D23CF05606E /* WBEChartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D74059753CF1E43806A5CC2EB0BCBB4 /* WBEChartsView.m */; };
-		6058022AEAD253789E697501E6E23CEF /* js in Resources */ = {isa = PBXBuildFile; fileRef = 05A76E3A73F7B55B64233D520FAEA27F /* js */; };
+		5516B52758D8A1089143519676D028FE /* WBEChartsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E2508C5B8EF6FEAD4C70DEF44C9A27 /* WBEChartsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AA0C56AC708720CD7965FB04F55444F /* WBECharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FBC9740914B0F6F7E4A9C320CF95E0 /* WBECharts-dummy.m */; };
+		6058022AEAD253789E697501E6E23CEF /* js in Resources */ = {isa = PBXBuildFile; fileRef = 096FFB4997C41C0589F18243DBC7E78E /* js */; };
+		62870DA84C72A4B5BBC56DCF0A05602D /* WBEChartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1922B69A1B1AC0723A4BCCE5AB13 /* WBEChartsView.m */; };
 		75C72876E6C965BC89E91EDAEC9BAE03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
-		9BA3294A6EB5565F7CB0455E6B8A6478 /* WBECharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3CF603D633B998ACD7B3EAB32D8E67 /* WBECharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DA8D22E2A9DA31F5C6A389D08300F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF78C37CDFCFDEB7867B41FA44FA26 /* UIKit.framework */; };
-		AAFB219488D2AEE1F94F0AFFBD103870 /* echarts.html in Resources */ = {isa = PBXBuildFile; fileRef = EADA99B478C0AD54D24CECBB82902749 /* echarts.html */; };
-		AC0C6D3831CA083E08C8207FC05F253A /* WBECharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE97CDB1F8D2AD27A7BE2FD12177678 /* WBECharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFB219488D2AEE1F94F0AFFBD103870 /* echarts.html in Resources */ = {isa = PBXBuildFile; fileRef = 2B28AFA84BC877F41D10A32FB0013B7A /* echarts.html */; };
 		AD261A3020604714CDA6B6AAAA3A6806 /* Pods-WBECharts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F0137B03B00D0090A11D99DE79279C /* Pods-WBECharts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD5EEAD08EF93B67903F79FAD004CA81 /* WBECharts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD9FA2CB179299B15306459D02BE74 /* WBECharts.bundle */; };
 		B061990B80790BBC5052CAA89237491A /* Pods-WBECharts_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEB0F03BFED7EE0C7474340F4129F7 /* Pods-WBECharts_Tests-dummy.m */; };
-		DD0D2FA8A1D9A4F2C14CAA3C68D7368F /* WBECharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F1B3C8F2D6E4553007F4046A9D8CA /* WBECharts-dummy.m */; };
+		D0CDBAA5202BB58742DE42A25E73F974 /* WBECharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DDE8A22CA02841326F692AF75ABB66 /* WBECharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F629AF8AD2ECAB868FCFB079DE5518 /* WBECharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF25E160D32772CDD9DDE2A3ED6E1DBC /* WBECharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8B22F156ED6E3C21D262D040CCF1548 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */; };
 		FE1C09AFE9ECF53EDB73693C4DED34FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */; };
+		FF100BD0DAAFDC5108F3B3FDB632E7EF /* WBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E9D4C00F788C4ECC337906178EC13D /* WBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,46 +47,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05A76E3A73F7B55B64233D520FAEA27F /* js */ = {isa = PBXFileReference; includeInIndex = 1; name = js; path = WBECharts/Assets/js; sourceTree = "<group>"; };
+		02FBC9740914B0F6F7E4A9C320CF95E0 /* WBECharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBECharts-dummy.m"; sourceTree = "<group>"; };
 		08F0137B03B00D0090A11D99DE79279C /* Pods-WBECharts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBECharts_Example-umbrella.h"; sourceTree = "<group>"; };
-		0A039619D459F6B9B8E644A4F8539BC8 /* ResourceBundle-WBECharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WBECharts-Info.plist"; sourceTree = "<group>"; };
-		0D74059753CF1E43806A5CC2EB0BCBB4 /* WBEChartsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBEChartsView.m; path = WBECharts/Classes/WBEChartsView.m; sourceTree = "<group>"; };
+		096FFB4997C41C0589F18243DBC7E78E /* js */ = {isa = PBXFileReference; includeInIndex = 1; name = js; path = WBECharts/Assets/js; sourceTree = "<group>"; };
 		1D0B208794649EC2D04E9D57E9329E72 /* Pods-WBECharts_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBECharts_Tests-resources.sh"; sourceTree = "<group>"; };
+		2B28AFA84BC877F41D10A32FB0013B7A /* echarts.html */ = {isa = PBXFileReference; includeInIndex = 1; name = echarts.html; path = WBECharts/Assets/echarts.html; sourceTree = "<group>"; };
 		364BBF69CB70F6A91A5D1BF37B72E7E2 /* Pods-WBECharts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBECharts_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		395A2B0E90F05F59867C13C0A5348668 /* Pods-WBECharts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBECharts_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3A95B0A80C77B31643B7206C65B1A8F1 /* Pods-WBECharts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBECharts_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3AFD9FA2CB179299B15306459D02BE74 /* WBECharts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WBECharts.bundle; path = WBECharts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCEB0F03BFED7EE0C7474340F4129F7 /* Pods-WBECharts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBECharts_Tests-dummy.m"; sourceTree = "<group>"; };
-		4A0E246150C5BAC0E25F5721BF8E665D /* WBECharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBECharts.xcconfig; sourceTree = "<group>"; };
 		4AA12CFEBA3E02A71A42CD80B35F07D5 /* Pods-WBECharts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WBECharts_Example.modulemap"; sourceTree = "<group>"; };
 		4D5A6A51C2FB116CF07A3D27CC2CF2D1 /* Pods_WBECharts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBECharts_Example.framework; path = "Pods-WBECharts_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E9D4C00F788C4ECC337906178EC13D /* WBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBUtilities.h; path = WBECharts/Classes/WBUtilities.h; sourceTree = "<group>"; };
 		575DB6B96AFADC1B4CEE91B832B51239 /* Pods-WBECharts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBECharts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6239C60A2B0FF32EC4270DC87D3E88DF /* Pods-WBECharts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WBECharts_Tests.modulemap"; sourceTree = "<group>"; };
-		6CE97CDB1F8D2AD27A7BE2FD12177678 /* WBECharts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBECharts.h; path = WBECharts/Classes/WBECharts.h; sourceTree = "<group>"; };
-		6D537FC9F3CD86315D30F665F41639D5 /* WBECharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WBECharts.modulemap; sourceTree = "<group>"; };
+		6A4F0407517E6B185962D2294D6B681B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78303A97700CA406D0BCB9A42F086717 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78DDE8A22CA02841326F692AF75ABB66 /* WBECharts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBECharts.h; path = WBECharts/Classes/WBECharts.h; sourceTree = "<group>"; };
 		7BB7CB0230F1DAE78C0556BAD54C090B /* Pods-WBECharts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBECharts_Tests-umbrella.h"; sourceTree = "<group>"; };
 		817F84F8FC8D74E1FB9581AF9B378861 /* Pods-WBECharts_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBECharts_Example-resources.sh"; sourceTree = "<group>"; };
 		851B906410F7D853FC936D12C58E1F92 /* Pods_WBECharts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBECharts_Tests.framework; path = "Pods-WBECharts_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E2508C5B8EF6FEAD4C70DEF44C9A27 /* WBEChartsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBEChartsView.h; path = WBECharts/Classes/WBEChartsView.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98D593E18F32315E75AB445A9F629D0A /* Pods-WBECharts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBECharts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B3CF603D633B998ACD7B3EAB32D8E67 /* WBECharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBECharts-umbrella.h"; sourceTree = "<group>"; };
-		9C3F1B3C8F2D6E4553007F4046A9D8CA /* WBECharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBECharts-dummy.m"; sourceTree = "<group>"; };
+		9FCC366947F1A739669BB41E398079B2 /* WBECharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBECharts.xcconfig; sourceTree = "<group>"; };
+		A44ECAFE68280CCC3B32D8C5E0A6E082 /* WBJsonUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBJsonUtils.m; path = WBECharts/Classes/WBJsonUtils.m; sourceTree = "<group>"; };
 		A5371136DA83BDC0996073B32A825FE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6FBAE85FD66D670744868F602486218 /* WBEChartsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBEChartsView.h; path = WBECharts/Classes/WBEChartsView.h; sourceTree = "<group>"; };
+		A9ED1922B69A1B1AC0723A4BCCE5AB13 /* WBEChartsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBEChartsView.m; path = WBECharts/Classes/WBEChartsView.m; sourceTree = "<group>"; };
 		AB0C8E6D467490867CF565DA5E0D79FC /* Pods-WBECharts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBECharts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ACCF78C37CDFCFDEB7867B41FA44FA26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ADAECFCE6AF6D52DB06FEAC7C200E8FC /* WBECharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WBECharts.modulemap; sourceTree = "<group>"; };
 		BA110A4A3898594D557DD64CA71C351F /* Pods-WBECharts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBECharts_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		BD09BE336889843AAEC068AA953C4EDD /* Pods-WBECharts_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBECharts_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CF4C63FE1345252EAE21D5C32BFFE16D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5E61AF966434AEC6FAD434B0E2E84BD /* WBECharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBECharts.framework; path = WBECharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C53A46EEE793A07C28A1BD661AB8A8 /* Pods-WBECharts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBECharts_Example-dummy.m"; sourceTree = "<group>"; };
+		DA91F84CE0E0D85859C6B4EDE7399DE3 /* WBJsonUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBJsonUtils.h; path = WBECharts/Classes/WBJsonUtils.h; sourceTree = "<group>"; };
 		DDCE3229AF51F45CE244CE5CF450633F /* Pods-WBECharts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBECharts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E380406D88AFE50BDE48E7E52BC89F35 /* WBECharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBECharts-prefix.pch"; sourceTree = "<group>"; };
 		E73B3DC754944A929EECC5F6B59D6A1C /* Pods-WBECharts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBECharts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EADA99B478C0AD54D24CECBB82902749 /* echarts.html */ = {isa = PBXFileReference; includeInIndex = 1; name = echarts.html; path = WBECharts/Assets/echarts.html; sourceTree = "<group>"; };
-		EAFAFACB98A2EE2B2D64A75C551CF83E /* WBECharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBECharts-prefix.pch"; sourceTree = "<group>"; };
-		FB2DE4479C37CAFAB5FCF2259B544474 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F47EB0C9F6352DA4EBFD3739A47521 /* ResourceBundle-WBECharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WBECharts-Info.plist"; sourceTree = "<group>"; };
+		FF25E160D32772CDD9DDE2A3ED6E1DBC /* WBECharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBECharts-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		0C4493FD7DFB6B6C35A5E305AD6E58AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F0407517E6B185962D2294D6B681B /* Info.plist */,
+				F7F47EB0C9F6352DA4EBFD3739A47521 /* ResourceBundle-WBECharts-Info.plist */,
+				ADAECFCE6AF6D52DB06FEAC7C200E8FC /* WBECharts.modulemap */,
+				9FCC366947F1A739669BB41E398079B2 /* WBECharts.xcconfig */,
+				02FBC9740914B0F6F7E4A9C320CF95E0 /* WBECharts-dummy.m */,
+				E380406D88AFE50BDE48E7E52BC89F35 /* WBECharts-prefix.pch */,
+				FF25E160D32772CDD9DDE2A3ED6E1DBC /* WBECharts-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WBECharts";
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,11 +161,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		20FF6B62027ACE96502024B4906BC01A /* Resources */ = {
+		1B46F7CD09BA6252858C53581EDCB4A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EADA99B478C0AD54D24CECBB82902749 /* echarts.html */,
-				05A76E3A73F7B55B64233D520FAEA27F /* js */,
+				2B28AFA84BC877F41D10A32FB0013B7A /* echarts.html */,
+				096FFB4997C41C0589F18243DBC7E78E /* js */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -157,27 +178,6 @@
 				BAB14A55D4DB30C8D98DB7528D9807F4 /* WebKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5D665BD9C4176AD370FE675F6B0210F1 /* WBECharts */ = {
-			isa = PBXGroup;
-			children = (
-				6CE97CDB1F8D2AD27A7BE2FD12177678 /* WBECharts.h */,
-				A6FBAE85FD66D670744868F602486218 /* WBEChartsView.h */,
-				0D74059753CF1E43806A5CC2EB0BCBB4 /* WBEChartsView.m */,
-				20FF6B62027ACE96502024B4906BC01A /* Resources */,
-				C85FB119885B37DACCA45F7630B8BC27 /* Support Files */,
-			);
-			name = WBECharts;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6D1D1EA2B3781F95DEC9D50EED3A98AB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5D665BD9C4176AD370FE675F6B0210F1 /* WBECharts */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7D4FD813AE75F7A1098E04845EE82175 /* Pods-WBECharts_Example */ = {
@@ -202,26 +202,35 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6D1D1EA2B3781F95DEC9D50EED3A98AB /* Development Pods */,
+				BADD68E17EEE5BE9CAC563E4A1BA02AC /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				DC47D38EDB6B53BB53841D3466D5D972 /* Products */,
 				06B62B1859998B25F13535342BA5F875 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		C85FB119885B37DACCA45F7630B8BC27 /* Support Files */ = {
+		8CA8E430DBA6906AFC4D17FEE751D97F /* WBECharts */ = {
 			isa = PBXGroup;
 			children = (
-				FB2DE4479C37CAFAB5FCF2259B544474 /* Info.plist */,
-				0A039619D459F6B9B8E644A4F8539BC8 /* ResourceBundle-WBECharts-Info.plist */,
-				6D537FC9F3CD86315D30F665F41639D5 /* WBECharts.modulemap */,
-				4A0E246150C5BAC0E25F5721BF8E665D /* WBECharts.xcconfig */,
-				9C3F1B3C8F2D6E4553007F4046A9D8CA /* WBECharts-dummy.m */,
-				EAFAFACB98A2EE2B2D64A75C551CF83E /* WBECharts-prefix.pch */,
-				9B3CF603D633B998ACD7B3EAB32D8E67 /* WBECharts-umbrella.h */,
+				78DDE8A22CA02841326F692AF75ABB66 /* WBECharts.h */,
+				92E2508C5B8EF6FEAD4C70DEF44C9A27 /* WBEChartsView.h */,
+				A9ED1922B69A1B1AC0723A4BCCE5AB13 /* WBEChartsView.m */,
+				DA91F84CE0E0D85859C6B4EDE7399DE3 /* WBJsonUtils.h */,
+				A44ECAFE68280CCC3B32D8C5E0A6E082 /* WBJsonUtils.m */,
+				50E9D4C00F788C4ECC337906178EC13D /* WBUtilities.h */,
+				1B46F7CD09BA6252858C53581EDCB4A9 /* Resources */,
+				0C4493FD7DFB6B6C35A5E305AD6E58AC /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WBECharts";
+			name = WBECharts;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BADD68E17EEE5BE9CAC563E4A1BA02AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CA8E430DBA6906AFC4D17FEE751D97F /* WBECharts */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DC47D38EDB6B53BB53841D3466D5D972 /* Products */ = {
@@ -256,13 +265,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A0EB8655AFEC4FB4B640B690ABEE7EB /* Headers */ = {
+		9E2BCE0EAAA7CB18635E4DE24692114A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA3294A6EB5565F7CB0455E6B8A6478 /* WBECharts-umbrella.h in Headers */,
-				AC0C6D3831CA083E08C8207FC05F253A /* WBECharts.h in Headers */,
-				2BC0E9815EC2D9AC37BE33832AFAC498 /* WBEChartsView.h in Headers */,
+				E5F629AF8AD2ECAB868FCFB079DE5518 /* WBECharts-umbrella.h in Headers */,
+				D0CDBAA5202BB58742DE42A25E73F974 /* WBECharts.h in Headers */,
+				5516B52758D8A1089143519676D028FE /* WBEChartsView.h in Headers */,
+				3113BE72B4D04AB0FB62F78F7AE74A55 /* WBJsonUtils.h in Headers */,
+				FF100BD0DAAFDC5108F3B3FDB632E7EF /* WBUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +300,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3990CEEB9622C45B919541EF399D10EA /* Build configuration list for PBXNativeTarget "WBECharts" */;
 			buildPhases = (
-				5B072D16FB36316029647D389BB001A0 /* Sources */,
+				923AC7E73D6D50177731CC9188B90309 /* Sources */,
 				1CFDB5B547F09648CD3AF4A702D65632 /* Frameworks */,
 				63897A5ABE5CACA11A1B46DC8ED011CB /* Resources */,
-				1A0EB8655AFEC4FB4B640B690ABEE7EB /* Headers */,
+				9E2BCE0EAAA7CB18635E4DE24692114A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -422,12 +433,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B072D16FB36316029647D389BB001A0 /* Sources */ = {
+		923AC7E73D6D50177731CC9188B90309 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0D2FA8A1D9A4F2C14CAA3C68D7368F /* WBECharts-dummy.m in Sources */,
-				4BD9ED1D40BE7A2DC0EB3D23CF05606E /* WBEChartsView.m in Sources */,
+				5AA0C56AC708720CD7965FB04F55444F /* WBECharts-dummy.m in Sources */,
+				62870DA84C72A4B5BBC56DCF0A05602D /* WBEChartsView.m in Sources */,
+				3498AAD3AE4353B5A8D539CEBF946149 /* WBJsonUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,7 +635,7 @@
 		};
 		6ABAF085A10C4548B03510C8A5816330 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0E246150C5BAC0E25F5721BF8E665D /* WBECharts.xcconfig */;
+			baseConfigurationReference = 9FCC366947F1A739669BB41E398079B2 /* WBECharts.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -656,7 +668,7 @@
 		};
 		A084A448242BC12ECAD90205B8350580 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0E246150C5BAC0E25F5721BF8E665D /* WBECharts.xcconfig */;
+			baseConfigurationReference = 9FCC366947F1A739669BB41E398079B2 /* WBECharts.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WBECharts";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -709,7 +721,7 @@
 		};
 		DFD2339EE5E7F887BABAC1CA72E3A85E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0E246150C5BAC0E25F5721BF8E665D /* WBECharts.xcconfig */;
+			baseConfigurationReference = 9FCC366947F1A739669BB41E398079B2 /* WBECharts.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -742,7 +754,7 @@
 		};
 		EF87F51986812D9AC6BAF48A1EF8FA76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0E246150C5BAC0E25F5721BF8E665D /* WBECharts.xcconfig */;
+			baseConfigurationReference = 9FCC366947F1A739669BB41E398079B2 /* WBECharts.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WBECharts";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

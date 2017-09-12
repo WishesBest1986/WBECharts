@@ -9,6 +9,9 @@
 #ifndef WBECharts_h
 #define WBECharts_h
 
+#import "WBUtilities.h"
+#import "WBJsonUtils.h"
+
 #import "WBEChartsView.h"
 
 #endif /* WBECharts_h */

@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C78389C854B6B29B515C839A /* Pods_WBECharts_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E9A8EFEE3374518AA2E685 /* Pods_WBECharts_Example.framework */; };
+		F444A43E1F67747F003C7C85 /* WBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F444A43D1F67747F003C7C85 /* WBTestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		ED6A2D48D1379AA173B6147A /* Pods-WBECharts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBECharts_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBECharts_Tests/Pods-WBECharts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDC4CAD2DEA0132AF83B626A /* Pods-WBECharts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBECharts_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBECharts_Tests/Pods-WBECharts_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F43806171F5D582D00102511 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F444A43C1F67747F003C7C85 /* WBTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTestModel.h; sourceTree = "<group>"; };
+		F444A43D1F67747F003C7C85 /* WBTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				F444A43C1F67747F003C7C85 /* WBTestModel.h */,
+				F444A43D1F67747F003C7C85 /* WBTestModel.m */,
 			);
 			name = "Example for WBECharts";
 			path = WBECharts;
@@ -407,6 +412,7 @@
 			files = (
 				6003F59E195388D20070C39A /* WBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WBViewController.m in Sources */,
+				F444A43E1F67747F003C7C85 /* WBTestModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

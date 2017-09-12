@@ -12,6 +12,8 @@
 
 #import "WBECharts.h"
 #import "WBEChartsView.h"
+#import "WBJsonUtils.h"
+#import "WBUtilities.h"
 
 FOUNDATION_EXPORT double WBEChartsVersionNumber;
 FOUNDATION_EXPORT const unsigned char WBEChartsVersionString[];

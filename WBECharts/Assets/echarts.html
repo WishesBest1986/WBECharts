@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8"/>
+        <meta charset="UTF-8">
         <title>ECharts</title>
-        
+            
         <style type="text/css">
             div {background-color: transparent;}
-            </style>
+        </style>
         
         <!-- import echarts library -->
         <script src="js/echarts.js"></script>
@@ -18,33 +18,71 @@
         <script src="js/theme/roma.js"></script>
         <script src="js/theme/shine.js"></script>
         <script src="js/theme/vintage.js"></script>
-        
+            
         <script type="text/javascript">
             var myChart;
             
-            function initEChartView() {
-                myChart = echarts.init(document.getElementById('main'));
-                var options = {
-                    title: {
-                        text: 'ECharts 入门示例'
-                    },
-                    tooltip: {},
-                    legend: {
-                        data:['销量']
-                    },
-                    xAxis: {
-                        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
-                    },
-                    yAxis: {},
-                    series: [{
-                             name: '销量',
-                             type: 'bar',
-                             data: [5, 20, 36, 10, 10, 20]
-                             }]
-                };
-                myChart.setOption(options);
+            function preTask(obj) {
+                var result;
+                if(typeof(obj) == 'object') {
+                    if(obj instanceof Array) {
+                        result = new Array();
+                        for (var i = 0, len = obj.length; i < len ; i++) {
+                            result.push(preTask(obj[i]));
+                        }
+                        return result;
+                    } else if(obj instanceof RegExp){
+                        return obj;
+                    } else {
+                        result = new Object();
+                        for (var prop in obj) {
+                            result[prop] = preTask(obj[prop]);
+                        }
+                        return result;
+                    }
+                } else if(typeof(obj) == 'string'){
+                    try {
+                        if(typeof(eval(obj)) == 'function'){
+                            return eval(obj);
+                        } else if (typeof(eval(obj) == 'object') && (eval(obj) instanceof Array || eval(obj) instanceof CanvasGradient)) {
+                            return eval(obj);
+                        }
+                    }catch(e) {
+                        return obj;
+                    }
+                    return obj;
+                } else {
+                    return obj;
+                }
             }
         
+            function initEChartView(theme, opts) {
+                if (theme == null || theme == 'undefined') {
+                    if (opts == null || opts == 'undefined') {
+                        myChart = echarts.init(document.getElementById('main'));
+                    } else {
+                        myChart = echarts.init(document.getElementById('main'), null, opts);
+                    }
+                } else {
+                    if (opts == null || opts == 'undefined') {
+                        myChart = echarts.init(document.getElementById('main'), theme);
+                    } else {
+                        myChart = echarts.init(document.getElementById('main'), theme, opts);
+                    }
+                }
+            }
+            
+            function loadEChart(optionJson, theme, initOpts) {
+                initEChartView(theme, initOpts);
+                option = preTask(optionJson);
+                myChart.setOption(option);
+            }
+            
+            function refreshEChart(optionJson) {
+                option = preTask(optionJson);
+                myChart.setOption(option);
+            }
+            
             function resizeDiv(cssText) {
                 var divMain = document.getElementById("main");
                 divMain.style.cssText = cssText;
