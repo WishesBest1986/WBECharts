@@ -270,9 +270,9 @@
 
 #pragma mark - WKScriptMessageHandler Method
 
-//- (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message
-//{
-//    
-//}
+- (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message
+{
+    
+}
 
 @end

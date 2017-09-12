@@ -97,9 +97,6 @@
 {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     unsigned int propsCount;
-    if ([obj respondsToSelector:@selector(reloadData)]) {
-        [obj reloadData];
-    }
     Class cls = [obj class];
     do {
         objc_property_t *props = class_copyPropertyList(cls, &propsCount);
